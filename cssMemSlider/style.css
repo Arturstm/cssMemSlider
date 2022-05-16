@@ -118,3 +118,45 @@ body {
 #image4:checked  ~ .subslider> .controls > .lab4{
     background-color: #fff;
 }
+@media (max-width: 1279px) and (min-width: 769px) {
+    .slider {
+    max-height: 400px;
+    max-width: 600px;
+    }
+}
+@media (max-width: 768px) {
+    .slider {
+        max-height: 400px;
+        max-width: 600px;
+    }
+}
+@media (max-width: 767px) and (min-width: 320px) {
+    .slider {
+        max-height: 185px;
+        max-width: 280px;
+    }
+    .subslider {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .slider-text {
+        max-width: 300px;
+        max-height: 69px;
+    }
+    .controls {
+        display: flex;
+        justify-content: center;
+    }
+    #image1:checked ~ .subslider > .slider-text > .movetext {
+        transform: translateY(0%);
+    }
+    #image2:checked ~ .subslider > .slider-text > .movetext {
+        transform: translateY(-24%);
+    }
+    #image3:checked ~ .subslider > .slider-text > .movetext {
+        transform: translateY(-49%);
+    }
+    #image4:checked ~ .subslider > .slider-text > .movetext {
+        transform: translateY(-75%);
+    }
+}
