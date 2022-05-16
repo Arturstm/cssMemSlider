@@ -151,7 +151,7 @@ body {
         transform: translateY(0%);
     }
     #image2:checked ~ .subslider > .slider-text > .movetext {
-        transform: translateY(-24%);
+        transform: translateY(-24.3%);
     }
     #image3:checked ~ .subslider > .slider-text > .movetext {
         transform: translateY(-49%);
